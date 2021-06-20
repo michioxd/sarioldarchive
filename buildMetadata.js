@@ -1,1 +1,0 @@
-window.buildMetadata = {"version":"0.0.1","commit":"c43bd9b","branch":"dev"}
