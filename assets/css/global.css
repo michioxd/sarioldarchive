@@ -1,5 +1,5 @@
 * {
-    font-family: Google Sans !important;
+    font-family: 'Open Sans' !important;
     color: #fff;
     transition: .2s;
     scroll-behavior: smooth;
@@ -11,6 +11,7 @@
 .material-icons {
     font-family: Material Icons !important;
 }
+
 @keyframes fade {
     from {
         opacity: 0
