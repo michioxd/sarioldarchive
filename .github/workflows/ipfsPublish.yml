@@ -21,7 +21,7 @@ jobs:
     - name: Initialize
       run: npm init -y
     - name: Install dependencies
-      run: npm i ipfs-core ipfs-http-client
+      run: npm i ipfs-core ipfs-http-client node-fetch
     - name: Publish to IPFS & update IPNS
       run: node ./.github/publish.js
       env:
