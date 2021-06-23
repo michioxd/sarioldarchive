@@ -22,8 +22,8 @@ jobs:
       run: npm init -y
     - name: Install dependencies
       run: npm i ipfs-core ipfs-http-client node-fetch
-    - name: Publish to IPFS & update IPNS
+    - name: Publish to IPFS & update DNSLink
       run: node ./.github/publish.js
       env:
-        B58KEY: ${{ secrets.B58IPNS }}
-        B32KEY: ${{ secrets.B32IPNS }}
+        CF_ZONE: ${{ secrets.CF_ZONE }}
+        CF_API: ${{ secrets.CF_API }}
