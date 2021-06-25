@@ -10,9 +10,11 @@
     <h1>Not Found</h1>
     <p>The requested URL <span class="path"></span> was not found on this server.</p>
     <hr>
-    <i>Apache/2.2.22 (CentOS) Server at sarichan.cf Port 443
+    <i>Apache/2.2.22 (CentOS) Server at <span class="host"></span> Port <span class="port"></span>
 </body>
     <script>
-        document.querySelector(".path").innerHTML = window.location.pathname;
+        document.querySelector(".path").innerHTML = location.pathname;
+        document.querySelector(".host").innerHTML = location.hostname;
+        document.querySelector(".port").innerHTML = location.port;
     </script>
 </html>
