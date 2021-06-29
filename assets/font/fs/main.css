@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'FreeStyle';
+    font-style: normal;
+    font-weight: normal;
+    font-stretch: 100%;
+    src: url(Vf-FreeStyle6n_0.ttf);
+}
+
+@font-face {
+    font-family: 'FreeStyle';
+    font-style: italic;
+    font-weight: normal;
+    font-stretch: 100%;
+    src: url(Vf-FreeStyle6i_0.ttf);
+}
+
+@font-face {
+    font-family: 'FreeStyle';
+    font-style: normal;
+    font-weight: bold;
+    font-stretch: 100%;
+    src: url(Vf-FreeStyle6b_0.ttf);
+}
+
+@font-face {
+    font-family: 'FreeStyle';
+    font-style: italic;
+    font-weight: bold;
+    font-stretch: 100%;
+    src: url(Vf-FreeStyle6bi_0.ttf);
+}
