@@ -46,6 +46,7 @@ body {
         width: 98%;
     }
 }
+
 .overlay {
     background: rgb(0, 0, 0, .6);
     position:fixed;
@@ -55,10 +56,12 @@ body {
     animation:fadecl 0.3s;
     bottom:-100%
 }
+
 .overlay.active {
     animation:fadecl 0.3s;
     bottom:0
 }
+
 .drawer_mb ul.sidenav {
     left: 300px !important;
 }
